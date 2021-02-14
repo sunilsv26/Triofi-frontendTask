@@ -1,0 +1,49 @@
+
+.Controls {
+  text-align: center;
+  margin: 20px auto;
+  width: 50%;
+  display: block;
+  margin-top: 100px;
+  box-shadow: 0px 1px 4px black;
+}
+
+
+button {
+  margin: 20px auto;
+  border: 1px solid grey;
+  background-color: #4caf50;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.Sign {
+  background-color: #4caf50;
+}
+
+button:disabled {
+  background-color: gray;
+  pointer-events: none;
+}
+
+.Controls form{
+  padding: 12px;
+}
+
+.Controls form .Reset{
+  color: brown;
+}
+.Controls form .Reset:hover{
+  cursor: pointer;
+}
+
+.Controls form .Reset:active{
+  color: coral;
+}
+
+
+@media (max-width: 680px) {
+  .Controls {
+    width: 80%;
+  }
+}

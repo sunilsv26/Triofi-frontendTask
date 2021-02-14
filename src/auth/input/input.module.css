@@ -1,0 +1,23 @@
+.Input{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.InputEl{
+    width: 100%;
+    padding: 5px 8px;
+    margin-top: 20px;
+    background-color: white;
+    border:1px solid grey;
+}
+
+.InputEl:focus{
+    outline: none;
+}
+
+
+.Invalid{
+    border: 1px solid red;
+}
