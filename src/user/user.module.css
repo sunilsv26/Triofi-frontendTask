@@ -1,0 +1,81 @@
+.User{
+  background-color:#107896;
+  color: whitesmoke;
+  text-align: left;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0px;
+}
+
+p{
+    margin: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.PizzaAndCart{
+    display: flex;
+    padding: 5px 5%;
+    justify-content: space-between;
+}
+
+.Pizza,.Cart,.Toppings,.Order{
+   height: auto;
+   min-height: 300px; 
+   margin: 10px;
+   padding: 10px;
+   width: 50%;
+   background-color:#1496BB;
+   box-sizing: border-box;
+}
+
+.Pizza button, .Toppings button{
+    font-size: small;
+    margin: 10px;
+    background-color: #107896;
+    color: white;
+    padding: 3px 5px;
+}
+.Order button{
+    font-size: small;
+    margin: 10px;
+    background-color: #107896;
+    color: white;
+}
+
+.ToppngsAndOrder{
+    display: flex;
+    padding: 5px 5%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+
+.Cart ul{
+   /*  list-style: none; */
+    margin-left: 20px;
+    padding-left: 10px;
+}
+.Cart ul li{
+    padding-left: none;
+}
+
+.Cart ul li span.toolTip{
+    display: hidden;
+    margin: 10px;
+    font-size: 12px;
+}
+
+@media(max-width:680px){
+    .PizzaAndCart,.ToppngsAndOrder{
+        flex-flow: row;
+        font-size: small;
+    };
+    .Pizza,.Cart,.Order,.Toppings{
+        margin:0px
+    }
+}
