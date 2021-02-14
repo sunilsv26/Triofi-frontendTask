@@ -1,11 +1,13 @@
 import React from 'react';
 import {Switch,Route} from 'react-router-dom';
-import Auth from '../auth/auth'
+import Auth from '../auth/auth';
+import User from '../user/user'
 
 const layout=(props)=>{
     return(
         <Switch>
-            <Route path='/auth' component={Auth} />
+            <Route path='/user' component={User} />
+            <Route path='/' component={Auth} />
         </Switch>
     )
 }
