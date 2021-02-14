@@ -36,3 +36,7 @@ button{
     color: white;
     padding: 3px 5px;
 }
+
+input {
+  margin: 12px;
+}
